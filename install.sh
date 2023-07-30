@@ -12,7 +12,7 @@ echo "hdmi_force_hotplug=1" >> /boot/config.txt
 echo "dtparam=i2c_arm=on" >> /boot/config.txt
 echo "dtparam=spi=on" >> /boot/config.txt
 echo "enable_uart=1" >> /boot/config.txt
-echo "dtoverlay=waveshare35a:rotate=90" >> /boot/config.txt
+echo "dtoverlay=waveshare35b-v2:rotate=90" >> /boot/config.txt
 cp ./cmdline.txt /boot/
 
 # touch screen calibration
