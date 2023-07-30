@@ -7,7 +7,7 @@ cp -rf ./99-calibration.conf  /etc/X11/xorg.conf.d/99-calibration.conf
 cp -rf ./99-fbturbo.conf  /etc/X11/xorg.conf.d/99-fbturbo.conf
 
 # load module on boot
-cp ./waveshare35a.dtbo /boot/overlays/
+cp ./waveshare35b-v2.dtbo /boot/overlays/
 echo "hdmi_force_hotplug=1" >> /boot/config.txt
 echo "dtparam=i2c_arm=on" >> /boot/config.txt
 echo "dtparam=spi=on" >> /boot/config.txt
